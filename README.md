@@ -2,7 +2,7 @@
 
 `appender.py` is a simple file-backed key-value store.
 
-## What It Does
+## Utility 
 
 - Accepts commands from standard input: `SET <key> <value>`, `GET <key>`, `EXIT`
 - Stores updates in `data.db` as append-only lines: `SET key value`
@@ -23,3 +23,4 @@ GET name
 Jack
 EXIT
 ```
+
